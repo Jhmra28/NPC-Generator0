@@ -5,7 +5,7 @@ NPCNumber = 0
 MaxAge = 0
 MinAge = 5
 age = 0
-Money = 0
+Money = 0.0
 Height = 0
 inches = 0
 
@@ -28,7 +28,7 @@ while (trueRandom != "Yes") and (trueRandom != "No"):
 
 # asks user for values if they want to enter them
 if trueRandom == "Yes":
-# Will keep asking for minumum and maximum age variables until they are logical
+# Will keep asking for minimum and maximum age variables until they are logical
     while MaxAge < MinAge:
         
         while True:
@@ -101,16 +101,16 @@ if trueRandom == "Yes":
             feet = random.randint(4,6)
         print(f"Height: {feet}'{inches}")
 
-      # Chooses inheritance based on age
+      # Chooses money based on age
         if age < 10:
-            inheritance = random.randint(1,999)
+            money = round(random.uniform(1,999), 2)
         elif age < 20:
-            inheritance = random.randint(100,9999)
+            money = round(random.uniform(100,9999), 2)
         elif age < 50:
-            inheritance = random.randint(1000,99999)
+            money = round(random.uniform(1000,99999), 2)
         else:
-            inheritance = random.randint(10000,999999) 
-        print(f"Inheritance: {inheritance}$")
+            money = round(random.uniform(10000,999999), 2) 
+        print(f"Money: {money}$")
 
 # If the user didn't enter variables, this code runs
 else:
@@ -141,14 +141,14 @@ else:
             feet = random.randint(4,6)
         print(f"Height: {feet}'{inches}")
 
-      # Bases inheritance on age
+      # Bases money on age
         if age < 10:
-            inheritance = random.randint(1,999)
+            money = round(random.uniform(1,999), 2)
         elif age < 20:
-            inheritance = random.randint(100,9999)
+            money = round(random.uniform(100,9999), 2)
         elif age < 50:
-            inheritance = random.randint(1000,99999)
+            money = round(random.uniform(1000,99999), 2)
         else:
-            inheritance = random.randint(10000,999999) 
-        print(f"Inheritance: {inheritance}$")
+            money = round(random.uniform(10000,999999), 2)
+        print(f"Money: {money}$")
     
