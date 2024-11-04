@@ -30,6 +30,7 @@ while (trueRandom != "Yes") and (trueRandom != "No"):
 if trueRandom == "Yes":
 # Will keep asking for minumum and maximum age variables until they are logical
     while MaxAge < MinAge:
+        
         while True:
             try:
                 MinAge = int(input("Enter Minimum Age: "))
@@ -44,6 +45,8 @@ if trueRandom == "Yes":
                 print("\nNot an integer\n")
             else:
                 break
+        if MaxAge < MinAge:
+            print("\nMinimum age cannot be higher than maximum age.\n")
     
     Gender =  input("Enter Gender (Male/Female): ")
 
@@ -148,4 +151,4 @@ else:
         else:
             inheritance = random.randint(10000,999999) 
         print(f"Inheritance: {inheritance}$")
-        
+    
