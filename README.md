@@ -14,7 +14,7 @@ You can specify some variables or let the generator choose them randomly. This s
 
 ## Example Output
 
-`
+```
 \/ Welcome to NPC Generator 3000! \/
 
 Would you like to determine anything for the NPCs? (Yes/No): Yes
@@ -35,4 +35,4 @@ Characteristics: Loyal, Generous, Unique
 Height: 6'2
 Money: 12567.42$
 ...
-`
+```
