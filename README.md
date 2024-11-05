@@ -3,7 +3,7 @@
 NPC Generator 3000 is a simple Python script that generates a set of random Non-Playable Characters (NPCs) with various attributes including name, age, height, and money. 
 You can specify some variables or let the generator choose them randomly. This script is useful for game development, story creation, or any scenario requiring unique character profiles.
 
-## Highlights
+##⭐ Features
 
 - **Randomized Names**: Generates names based on gender and age.
 - **Customizable Age Range**: Define a minimum and maximum age for NPCs.
@@ -12,9 +12,9 @@ You can specify some variables or let the generator choose them randomly. This s
 - **NPC Count**: The user can specify the number of NPCs to generate.
 - **User Experience**: Multiple functions are built in for error handling and user experience. If you do not want to enter any parameters, there is an option to do that.
 
-## Example Output
+##📟 Example Output
 
-```
+```python
 \/ Welcome to NPC Generator 3000! \/
 
 Would you like to determine anything for the NPCs? (Yes/No): Yes
@@ -36,3 +36,7 @@ Height: 6'2
 Money: 12567.42$
 ...
 ```
+
+##🔥 Usage
+
+This code is open source and created by me. It was created purely to hone my skills and for anyone else who needs something similar, so feel free to use it for whatever you want.
